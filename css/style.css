@@ -1,0 +1,76 @@
+/* ----- Common CSS Value and Property-----
+   ======================================*/
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/*========================
+   --Header Styles Start--
+   ========================*/
+header {
+    background-color: #2D25A0;
+    padding: 20px 156px 20px 124px;;
+
+}
+
+
+nav {
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul { 
+    display: flex;   
+}
+
+nav ul li {   
+    list-style: none;
+}
+
+nav ul li a {  
+    font-weight: 400;
+    font-size: 16px;
+    margin: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.all-btn{
+    border: none;
+    background-color: #E02C6D;
+    width: 123px;
+    height: 44px;
+}
+.all-btn:hover{
+    transition: 0.3s ;
+    background-color: #c5064c;
+}
+
+.all-btn a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    
+}
+
+
+.fa-sign-out-alt{
+    color: white;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+/*========================
+   --Header Styles END--
+   ========================*/
+
+   /*========================
+   --Header Styles END--
+   ========================*/
