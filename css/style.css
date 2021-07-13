@@ -68,9 +68,98 @@ nav ul li a {
 }
 
 /*========================
-   --Header Styles END--
+   --Banner Section Start--
    ========================*/
 
+#banner{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 195px;
+    padding-bottom: 20px;
+}
+.banner-content .b-h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.watch-btn{
+    width: 156px;
+}
+
+.banner-img{
+    width: 50%;
+}
+
+.banner-img img{
+    width: 556px;
+    padding: 70px 150px;
+}
+
+@keyframes ball-kick {
+    from {top: -410px;}
+    to {left: -560px;
+    transform: scale(0.1);
+    background-image: url(../images/goal.png);
+    }
+}
+.main-ani .a-football >img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -420px;
+    left: 150px;
+}
+
+.main-ani:hover .football{
+    animation: ball-kick 0.9s ease-in 0.5ms 1 ;
+}
    /*========================
-   --Header Styles END--
+   --Banner Section End--
+   ========================*/
+
+
+   /*========================
+   --Player Section Start--
+   ========================*/
+
+#players{
+    margin:100px 180px 0px 180px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    
+}
+.player{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-top: 27px;
+    transition: 0.2s;
+}
+.player:hover{
+    
+    transform: scale(0.9);
+}
+.player-title{
+    font-size: 28px;
+}
+.player-deatil{
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+.player-img img{
+    width: 100%;
+   
+}
+
+    /*========================
+   --Player Section End--
    ========================*/
